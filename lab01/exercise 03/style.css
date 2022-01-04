@@ -11,15 +11,21 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
-img {
-  width: 100%;
+.vid {
+  width: 90%;
+  height: 40%;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
 }
 
 section {
   flex: 1 0 21%;
   box-sizing: border-box;
   width: 50vh;
-  border: 2px solid gray;
+  border: 2px solid rgb(218, 218, 218);
+  border-radius: 2%;
 }
 
 section > *:not(img) {
